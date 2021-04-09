@@ -34,7 +34,6 @@ body{
 }
 .header-1 img{
   width: 88px;
-  height: 68px;
   margin-top: 13px;
 }
 /*-- banner --*/
@@ -1638,27 +1637,15 @@ h2.typoh2{
     font-size: 12px;
   }
 }
-@media(max-width:560px){
+@media(max-width:620px){
 	.header-1 h1{
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 8px;
   }
   .header-1 p{
-    font-size: 10px;
+    font-size: 11px;
   }
-}
-@media(max-width:321px){
-	.header-1 h1{
-    font-size: 18px;
-    margin-top: 9px;
-  }
-  .header-1 p{
-    font-size: 9px;
-  }
-  .header-1 img{
-    width: 75px;
-    height: 49px;
-  }
+  .header-1
 }
 /*-- //contact --*/
 /*-- responsive --*/

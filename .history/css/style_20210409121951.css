@@ -34,7 +34,7 @@ body{
 }
 .header-1 img{
   width: 88px;
-  height: 68px;
+  height: 8px;
   margin-top: 13px;
 }
 /*-- banner --*/
@@ -1645,19 +1645,6 @@ h2.typoh2{
   }
   .header-1 p{
     font-size: 10px;
-  }
-}
-@media(max-width:321px){
-	.header-1 h1{
-    font-size: 18px;
-    margin-top: 9px;
-  }
-  .header-1 p{
-    font-size: 9px;
-  }
-  .header-1 img{
-    width: 75px;
-    height: 49px;
   }
 }
 /*-- //contact --*/

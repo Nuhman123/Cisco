@@ -1650,14 +1650,10 @@ h2.typoh2{
 @media(max-width:321px){
 	.header-1 h1{
     font-size: 18px;
-    margin-top: 9px;
+    margin-top: 10px;
   }
   .header-1 p{
-    font-size: 9px;
-  }
-  .header-1 img{
-    width: 75px;
-    height: 49px;
+    font-size: 12px;
   }
 }
 /*-- //contact --*/
