@@ -1632,7 +1632,7 @@ h2.typoh2{
 @media(max-width:705px){
 	.header-1 h1{
     font-size: 25px;
-    margin-top: 16px;
+    margin-top: 1px;
   }
   .header-1 p{
     font-size: 12px;
@@ -1641,19 +1641,19 @@ h2.typoh2{
 @media(max-width:560px){
 	.header-1 h1{
     font-size: 20px;
-    margin-top: 16px;
+    margin-top: 10px;
   }
   .header-1 p{
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 @media(max-width:321px){
 	.header-1 h1{
     font-size: 18px;
-    margin-top: 16px;
+    margin-top: 9px;
   }
   .header-1 p{
-    font-size: 7px;
+    font-size: 9px;
   }
   .header-1 img{
     width: 75px;
