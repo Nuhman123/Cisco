@@ -315,7 +315,7 @@ $(document).ready(function() {
 		</div>
 	</div>
 	<!-- //offer -->
-	<section class="form-quote mt-1">
+	<section class="form-quote">
 		<div class="container">
 		<div class="contact-form1">
 			<h3>Get A Quick Quote</h3>
@@ -326,10 +326,10 @@ $(document).ready(function() {
 				<input type="text" name="name" placeholder="Your Name" required="">
 					</div>
 					<div class="col-xs-12 col-sm-6">
-				<input type="text" name="email" placeholder="Your Email" required="" >
+				<input type="text" name="email" placeholder="Email" required="" >
 					</div>
 					<div class="col-xs-12 col-sm-6">
-				<input type="text" name="mobile" placeholder="Mobail No" required="">
+				<input type="text" name="mobile" placeholder="Mobail" required="">
 					</div>
 					<div class="col-xs-12 col-sm-6">
 						<input type="text" name="Subject" placeholder="Subject" required="">
@@ -480,25 +480,6 @@ $(document).ready(function() {
 				speed: 0.5,
 				imgWidth: 1366,
 				imgHeight: 768
-			})
-		</script>
-		<script>
-			$("#submit-form").submit((e)=>{
-				e.preventDefault()
-				$.ajax({
-					url:"https://script.google.com/macros/s/AKfycbxqaVGKOK1kWu5ZLRuO0COCbvFcYea94i7XsQnDpJLzBZx6xK-TQdAaT0i4oE-yD7Oi/exec",
-					data:$("#submit-form").serialize(),
-					method:"post",
-					success:function (response){
-						alert("Form submitted successfully")
-						window.location.reload()
-						//window.location.href="https://google.com"
-					},
-					error:function (err){
-						alert("Something Error")
-		
-					}
-				})
 			})
 		</script>
 </body>	

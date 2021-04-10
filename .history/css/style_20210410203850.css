@@ -1566,7 +1566,7 @@ h2.typoh2{
 }
 .contact-form input[type="text"] {
     width: 32.6%;
-    color: #363232;
+    color: #0e0c0c;
     background: white;
     outline: none;
     font-size: 1em;
@@ -1581,7 +1581,7 @@ h2.typoh2{
 .contact-form textarea {
   resize: none;
   width: 100%;
-  color: #0a0a0a;
+  color: #999999;
   background: none;
   font-size: 1em;
   outline: none;
@@ -1617,12 +1617,12 @@ h2.typoh2{
 }
 .contact-form1 h3{
   text-align: center;
-  font-size: 30px;
+  font: 1em sans-serif;
 }
 .contact-form1 input[type="text"] {
   width: 100%;
   height: 25px;
-  color:silver;
+  color: #0e0c0c;
   background: white;
   border-radius: 6px;
   outline: none;
@@ -1645,24 +1645,6 @@ h2.typoh2{
   border: solid 2px #cecece;
   min-height: 150px;
   -webkit-appearance: none;
-}
-.contact-form1 input[type="submit"] {
-  border: solid 2px #d1f436;
-  color: #000000;
-  font-size: 1em;
-  font-weight: 600;
-  padding: .4em 2em;
-  text-decoration: none;
-  letter-spacing: 1px;
-  background:yellow;
-  margin: em 0 0 0;
-  align-items: center;
-  -webkit-appearance: none;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -ms-transition: 0.5s all;
 }
 .agileits-address-grids {
   margin-top: 2em;

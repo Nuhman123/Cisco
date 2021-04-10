@@ -315,27 +315,19 @@ $(document).ready(function() {
 		</div>
 	</div>
 	<!-- //offer -->
-	<section class="form-quote mt-1">
+	<section class="form-quote">
 		<div class="container">
-		<div class="contact-form1">
+		<div class="contact-form">
 			<h3>Get A Quick Quote</h3>
 			<p class="" >Send us your details to get a quick quotes</p>
 			<form id="submit-form" action="">
 				<div class="row">
-					<div class="col-xs-12 col-sm-6">
-				<input type="text" name="name" placeholder="Your Name" required="">
-					</div>
-					<div class="col-xs-12 col-sm-6">
-				<input type="text" name="email" placeholder="Your Email" required="" >
-					</div>
-					<div class="col-xs-12 col-sm-6">
-				<input type="text" name="mobile" placeholder="Mobail No" required="">
-					</div>
-					<div class="col-xs-12 col-sm-6">
-						<input type="text" name="Subject" placeholder="Subject" required="">
-							</div>
-				<textarea name="message" placeholder="Automation requirement" required=""></textarea>
-				<input type="submit" value="Send Message">
+					<div class="col-xs-12 col-m">
+				<input type="text" name="name" placeholder="Name" required="">
+				<input type="text" name="email" placeholder="Email" required="">
+				<input type="text" name="mobile" placeholder="Mobail" required="">
+				<textarea name="message" placeholder="Message" required=""></textarea>
+				<input type="submit" value="submit" style="width: 100%;">
 			</div>
 			</form>
 		</div>
@@ -480,25 +472,6 @@ $(document).ready(function() {
 				speed: 0.5,
 				imgWidth: 1366,
 				imgHeight: 768
-			})
-		</script>
-		<script>
-			$("#submit-form").submit((e)=>{
-				e.preventDefault()
-				$.ajax({
-					url:"https://script.google.com/macros/s/AKfycbxqaVGKOK1kWu5ZLRuO0COCbvFcYea94i7XsQnDpJLzBZx6xK-TQdAaT0i4oE-yD7Oi/exec",
-					data:$("#submit-form").serialize(),
-					method:"post",
-					success:function (response){
-						alert("Form submitted successfully")
-						window.location.reload()
-						//window.location.href="https://google.com"
-					},
-					error:function (err){
-						alert("Something Error")
-		
-					}
-				})
 			})
 		</script>
 </body>	
